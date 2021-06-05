@@ -14,8 +14,8 @@ import OnBoardingPage from '../../containers/OnBoardingPage';
 const Navigation = () => {
   const Stack = createStackNavigator();
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="Create Account" component={OnBoardingPage} />
+    <Stack.Navigator headerMode="none">
+      <Stack.Screen name="CreateAccount" component={OnBoardingPage} />
     </Stack.Navigator>
   );
 };

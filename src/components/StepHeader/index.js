@@ -1,11 +1,8 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {StyleSheet, Animated, View} from 'react-native';
+import {StyleSheet, Animated, View, Text} from 'react-native';
 
-const numOfStep = 3;
-const step = 1;
-
-const StepHeader = () => {
+const StepHeader = ({numOfStep, step}) => {
   const nodeColor = node => {
     if (node === step) {
       return {backgroundColor: 'transparent', borderColor: '#084C61'};
@@ -51,10 +48,11 @@ const StepHeader = () => {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 20,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#DCE1DE',
+    height: '15%',
   },
   bar: {
     height: '100%',
