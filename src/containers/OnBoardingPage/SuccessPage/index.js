@@ -20,7 +20,7 @@ const SuccessPage = ({firstName, handleResetData}) => {
   );
 
   return (
-    <PageContainer noScroll>
+    <PageContainer>
       <View style={[styles.container]}>
         <BackButtonWrapper
           back={() => navigation.goBack()}

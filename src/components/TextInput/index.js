@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     marginTop: 4,
     marginHorizontal: 1,
-    maxWidth: '100%',
-    minWidth: '100%',
+    maxWidth: '98%',
+    minWidth: '98%',
   },
   errorInput: {
     borderColor: '#E71D36',

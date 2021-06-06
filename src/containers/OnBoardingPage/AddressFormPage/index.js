@@ -39,7 +39,7 @@ const AddressFormPage = ({handleUpdateData, firstName, email}) => {
   };
 
   return (
-    <PageContainer noScroll>
+    <PageContainer>
       <View style={[styles.container]}>
         <BackButtonWrapper
           back={() => navigation.goBack()}

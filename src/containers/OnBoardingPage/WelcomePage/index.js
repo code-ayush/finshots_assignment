@@ -17,7 +17,7 @@ const WelcomePage = () => {
   );
 
   return (
-    <PageContainer noScroll={true}>
+    <PageContainer>
       <View style={[styles.container]}>
         <Image
           style={[styles.logo]}
@@ -43,6 +43,7 @@ const WelcomePage = () => {
 const styles = StyleSheet.create({
   container: {
     alignItems: 'flex-start',
+    paddingBottom: 30,
   },
   logo: {
     height: 35,
@@ -60,13 +61,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '400',
     color: '#343d48cc',
-    height: '45%',
     width: '90%',
   },
   footerTitle: {
     fontSize: 24,
     fontWeight: '800',
     color: '#0f2137',
+    marginTop: 40,
   },
 });
 

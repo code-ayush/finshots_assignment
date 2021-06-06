@@ -34,7 +34,7 @@ const StepHeader = ({numOfStep, step}) => {
                 style={[
                   styles.bar,
                   {
-                    width: i <= step - 1 && '100%',
+                    width: i <= step - 1 ? '100%' : 0,
                   },
                 ]}
               />

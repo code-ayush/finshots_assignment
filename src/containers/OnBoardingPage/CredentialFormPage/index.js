@@ -49,7 +49,7 @@ const AddressFormPage = ({
   }, [apiStatus]);
 
   return (
-    <PageContainer noScroll>
+    <PageContainer>
       {apiStatus === 'PROCESSING' ? (
         <View style={[styles.loader]}>
           <ActivityIndicator size="large" color="#084C61" />
