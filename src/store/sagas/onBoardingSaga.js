@@ -17,7 +17,6 @@ function* saveDataSaga({data}) {
       yield put(saveDataFailure('Unable to Update the Details'));
     }
   } catch (error) {
-    console.log(error);
     yield put(saveDataFailure('Unable to Update the Details'));
   }
 }
